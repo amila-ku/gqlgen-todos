@@ -1,9 +1,8 @@
-package gqlgen_todos
+package gqlgen-todos
 
-
-type Todo {
-	id: ID!
-	text: String!
-	done: Boolean!
-	user: User!
+type Todo struct {
+	ID     string `json:"id"`
+	Text   string `json:"text"`
+	Done   bool   `json:"done"`
+	UserID string `json:"user"`
 }

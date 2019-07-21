@@ -1,4 +1,4 @@
-package gqlgen_todos
+package gqlgen-todos
 
 import (
 	"context"
