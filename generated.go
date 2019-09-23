@@ -217,10 +217,10 @@ var parsedSchema = gqlparser.MustLoadSchema(
 # https://gqlgen.com/getting-started/
 
 type Todo {
-	id: ID!
-	text: String!
-	done: Boolean!
-	user: User!
+  id: ID!
+  text: String!
+  done: Boolean!
+  user: User!
 }
 
 type User {

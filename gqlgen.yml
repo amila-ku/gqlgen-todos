@@ -7,8 +7,6 @@ schema:
 - schema.graphql
 exec:
   filename: generated.go
-model:
-  filename: models_gen.go
 models:
   Todo:
     model: github.com/amila-ku/gqlgen-todos.Todo
@@ -16,10 +14,3 @@ resolver:
   filename: resolver.go
   type: Resolver
 autobind: []
-# directives:
-#   deprecated:
-#     skip_runtime: true
-#   include:
-#     skip_runtime: true
-#   skip:
-#     skip_runtime: true
